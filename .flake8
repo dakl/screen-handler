@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 100
+import-order-style=smarkets
+application-import-names=recommender,tests
+ignore = W503,E203,E231,E501,S101
