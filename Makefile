@@ -4,7 +4,7 @@ run-dev:
 run:
 	WRITE_HANDLE=/sys/class/backlight/rpi_backlight/brightness \
 	READ_HANDLE=/sys/class/backlight/rpi_backlight/actual_brightness \
-	python run.py
+	python3 run.py
 
 lint:
 	flake8 app/
